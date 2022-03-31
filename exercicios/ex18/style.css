@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Concert+One&family=Gugi&family=Yuji+Mai&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Concert+One&family=Gugi&family=Nosifer&family=Yuji+Mai&display=swap');
+
+body{
+    background-color: rgba(0, 0, 0, 0.342);
+    text-align: center;
+}
+
+main{
+    background-color: blue;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+}
+
+p{
+    font-family: 'Halloween', cursive;
+}
+
+h1, h2{
+    font-family: 'Halloween', cursive;
+}
+@font-face {
+    font-family: 'Halloween';
+    src: url('fontes/Frightmare.otf') format('opentype');
+    font-weight:normal;
+    font-size:normal;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídeas em HTML5</title>
+</head>
+<body>
+   <h1>Imagem Dinâmica</h1>
+   <p>Tente abrir esse site em vários dispositivos diferentes simplesmente aumente e diminua o tamanho do seu navegador</p>
+   <picture>
+       <source media="(max-width: 625px)" srcset="imagens/foto-01.png" type="image/png">
+       <source media="(max-width: 925px)" srcset="imagens/foto-02.png" type="image/png">
+    <img src="imagens/foto-03.png" alt="imagem flexível">
+   </picture>
+   <h1>Reproduzindo áudio</h1>
+   <p>Vomos aprender a reproduzir áudios em HTML5.</p>
+   <audio preload="metadata" autoplay controls loop>
+    <source src="audio/the itch neffex.mp3" type="audio/mpeg">
+    <source src="audio/the itch neffex.mp3" type="audio/ogg">
+    <source src="audio/the itch neffex.mp3" type="audio/wav">
+   </audio>
+</body>
+</html>
